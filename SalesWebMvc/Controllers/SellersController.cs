@@ -25,11 +25,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Create()
         {
-
-
             return View();
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
